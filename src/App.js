@@ -14,7 +14,7 @@ import Contacts from "./Pages/Contacts";
 function App() {
   return (
     <div className="App">
-      <Router >
+      <Router basename="/Health-Plus">
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/home" element={<Home />} />
